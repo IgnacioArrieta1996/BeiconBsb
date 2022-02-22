@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.beiconbsb.ui.home.HomeFragment"
+        android:label="@string/drawer_menu"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_newOrderFragment"
+            app:destination="@id/newOrderFragment"
+            app:enterAnim="@anim/from_rigth"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_myorder"
+        android:name="com.beiconbsb.ui.myorders.MyOrdersFragment"
+        android:label="@string/drawer_myorder"
+        tools:layout="@layout/fragment_drw_myorder" />
+
+    <fragment
+        android:id="@+id/nav_restaurants"
+        android:name="com.beiconbsb.ui.restaurants.RestaurantFragment"
+        android:label="@string/drawer_restaurants"
+        tools:layout="@layout/fragment_drw_restaurants" />
+    <fragment
+        android:id="@+id/nav_bsbExperience"
+        android:name="com.beiconbsb.ui.experience.BsbExperienceFragment"
+        android:label="@string/bsb_experience"
+        tools:layout="@layout/fragment_bsb_experience"
+        />
+    <fragment
+        android:id="@+id/nav_config"
+        android:name="com.beiconbsb.ui.userconfig.ConfigFragment"
+        android:label="@string/drawer_setting"
+        tools:layout="@layout/fragment_drw_config" />
+    <fragment
+        android:id="@+id/nav_tour"
+        android:name="com.beiconbsb.ui.tour.MyKitchenFragment"
+        android:label="@string/drawer_kitchen"
+        tools:layout="@layout/fragment_drw_mykitchen" />
+    <fragment
+        android:id="@+id/newOrderFragment"
+        android:name="com.beiconbsb.ui.neworder.NewOrderFragment"
+        android:label="@string/new_order_title"
+        tools:layout="@layout/fragment_neworder"
+        />
+
+
+</navigation>

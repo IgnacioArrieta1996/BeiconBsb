@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "193481053963",
+    "project_id": "beicon-bsb",
+    "storage_bucket": "beicon-bsb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193481053963:android:49527c7bcaf5d05619740e",
+        "android_client_info": {
+          "package_name": "com.beiconbsb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193481053963-m2i64aj97c3gj1immm4jt52addjjfft1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrcEwvvILuEWErCQnBfmOtALa_osBIxEA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193481053963-m2i64aj97c3gj1immm4jt52addjjfft1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

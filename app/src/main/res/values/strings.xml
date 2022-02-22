@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">Beicon Bsb</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Contraseña</string>
+    <string name="login_entry">INGRESAR</string>
+    <string name="login_checkin">REGISTRARSE</string>
+    <string name="login_forgot_password">¿Olvidó su contraseña?</string>
+    <string name="login_google">Continuar con Google</string>
+    <string name="login_facebook">Continuar con Facebook</string>
+
+
+    <!-- SignUp  fragment-->
+
+    <string name="signup_title">REGISTRO</string>
+    <string name="signup_hint_first_name">Nombre</string>
+    <string name="signup_hint_last_name">Apellido</string>
+    <string name="signup_et_hint_email_id">Email</string>
+    <string name="signup_et_hint_home">Dirección</string>
+    <string name="signup_et_hint_password">Contraseña</string>
+    <string name="signup_et_hint_confirm_password">Repetir contraseña</string>
+    <string name="signup_i_agree_to_the_terms_and_condition">Aceptar términos y condiciones</string>
+    <string name="signup_btn_lbl_register">Finalizar registro</string>
+    <string name="signup_already_have_an_account">Ya tienes una cuenta?</string>
+    <string name="signup_textview_login">Iniciar sesión</string>
+    <string name="signup_name_text">Ingrese un nombre válido</string>
+    <string name="signup_lastname_text">Ingrese un apellido válido</string>
+    <string name="signup_email_text">Email inválido</string>
+    <string name="signup_password_text">La contraseña debe tener al menos 8 caracteres, 1 mayúscula y 1 número</string>
+    <string name="signup_same_password_text">La contraseña no coincide</string>
+
+    <!--Home fragmen-->
+    <string name="home_request">Realizar pedido</string>
+    <string name="home_delivery">BSB Delivery</string>
+
+    <!--Drawer menu-->
+    <string name="drawer_restaurants">Restaurantes</string>
+    <string name="drawer_menu">Menu principal</string>
+    <string name="drawer_experience">BSB Experiencia</string>
+    <string name="drawer_kitchen">Tour cocina</string>
+    <string name="drawer_setting">Configuracion</string>
+    <string name="drawer_list">Mis pedidos</string>
+    <string name="drawer_experience_btnlike">Valóranos</string>
+
+    <!--ItemMyOrder-->
+    <string name="item_btn_myorder">Repetir pedido</string>
+
+    <!--TextImputEditTextCommentValoranos-->
+    <string name="valoranos_et_comment">Comentario</string>
+
+
+    <!--BSB Experience-->
+    <string name="bsb_experience">BSB Experiencia</string>
+    <string name="drawer_myorder">Mis ordenes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--BSB Experience-->
+    <string name="txt_myKitchen">Conócenos un poco más</string>
+
+    <!--Drw Config/CardView-->
+    <string name="card_txt_name">Nombre</string>
+    <string name="card_txt_lastname">Apellido</string>
+    <string name="card_txt_email">Email</string>
+    <string name="card_txt_phone">Teléfono</string>
+    <string name="card_txt_adress">Dirección</string>
+    <string name="card_btn_confirm">Confirmar</string>
+
+    <!--Drw Config/textView-->
+    <string name="config_txt_mydata">Mis datos</string>
+    <string name="card_txt_disableNotifications">¿Deseas desactivar las notificaciones?</string>
+
+    <!--Order ToppingsAndSauces/textView-->
+    <string name="order_txt_size">Tamaño</string>
+    <string name="order_txt_toppings">Toppings</string>
+    <string name="order_txt_sauces">Salsas y aderezos</string>
+
+    <!--Progress dialog-->
+    <string name="please_wait">Por favor espere...</string>
+
+
+    <!--User config fragment-->
+    <string name="userconfig_logout">Cerrar sesión</string>
+
+    <!--User item OrderBurgerAndDrink-->
+    <string name="burger_name">¿Para quién es esta burger?</string>
+    <string name="name_orderBurger">Nombre</string>
+    <string name="size_orderBurger">Tamaño</string>
+    <string name="total_orderBurger">Total:</string>
+    <string name="name_orderDrink">Tipo</string>
+    <string name="new_order_title">Nueva orden</string>
+    <string name="new_order_person_name_hint">¿Para quién es esta burger?</string>
+
+    <!--User btn shoppingCart fragment-->
+    <string name="addDrink">Añadir bebida</string>
+    <string name="name_addBurger">Añadir hamburguesa</string>
+    <string name="name_finishPurchase">Finalizar compra</string>
+
+    <!--User btn addDrink fragment-->
+    <string name="addDrinkToCar">Añadir al carro</string>
+
+    <!--User item addDrink -->
+    <string name="drink">Bebida</string>
+
+
+</resources>
